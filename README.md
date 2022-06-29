@@ -69,6 +69,10 @@ The website link can be found [here](...)
 
 ## Features 
 
+### Django
+
+![Screenshot (272)](https://user-images.githubusercontent.com/83631970/176549009-5fda7d66-884a-4e02-b392-86efe76aafa1.png)
+
 ### Existing Features
 
 - __Navigation Bar__
