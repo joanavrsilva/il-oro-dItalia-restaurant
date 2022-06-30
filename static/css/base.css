@@ -59,6 +59,10 @@ body {
     border: 1px solid white !important;
 }
 
+a {
+    color: black
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
