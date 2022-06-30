@@ -1,7 +1,9 @@
 # Il oro d'Italia restaurant
 ![Responsive Mockup](...)
 
-The website link can be found [here](...)
+The website link can be found [here](https://il-oro-ditalia.herokuapp.com/)
+
+Unfortunately I was not able to finish this project.
 
 ## User stories
  
@@ -128,6 +130,13 @@ The live link can be found [here](...)
 
 
 ## Credits
+
+- Code Institute modules:
+- - Hello Django
+- - I think therefore I Blog
+- - Boutique Ado
+
+- Bootstrap
 
 ### Content 
 
