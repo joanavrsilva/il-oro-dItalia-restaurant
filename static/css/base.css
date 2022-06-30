@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/pizza-homepage-background-image.png') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    font-family: 'Lato';
+    height: calc(100vh - 164px);
+    
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.book-table-button {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    min-width: 260px;
+    text-align: center;
+}
+
+.btn {
+    background: black;
+    color: white;
+}
+
+.book-table-button:hover,
+.book-table-button:active,
+.book-table-button:focus,
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background: white;
+    color: Black;
+}
+
+.text {
+    color: white !important;
+}
+
+.border {
+    border: 1px solid white !important;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
